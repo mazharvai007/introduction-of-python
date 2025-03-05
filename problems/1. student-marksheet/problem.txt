@@ -1,0 +1,24 @@
+1️⃣ Ask the user to enter the following details:
+● Student Name
+● Age
+● Roll Number
+● Marks in 3 subjects (Math, Science, English)
+2️⃣ Perform the following operations:
+● Calculate the total marks.
+● Calculate the average marks.
+3️⃣ Display the student details and results in a formatted manner.
+
+🔹 Sample Output:
+Enter Student Name: Alice
+Enter Age: 18
+Enter Roll Number: 101
+Enter Marks in Math: 85
+Enter Marks in Science: 75
+Enter Marks in English: 90
+Student Report:
+-----------------------
+Name : Alice
+Age : 18
+Roll Number : 101
+Total Marks : 250
+Average : 83.33
