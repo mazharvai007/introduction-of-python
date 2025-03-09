@@ -20,3 +20,14 @@ else:
     print("You are a senior citizen")
     
     
+# The most well-known conditional statement is if
+num_value = int(input("Please enter an integer: "))
+if num_value < 0:
+    num_value = 0
+    print("Negative changed to zero")
+elif num_value == 0:
+    print("Zero")
+elif num_value == 1:
+    print("Single")
+else:
+    print("More")
