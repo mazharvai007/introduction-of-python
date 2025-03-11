@@ -218,3 +218,43 @@ Scope and Namespace:
 
 Global, Nonlocal
 """
+
+number1 = 15
+number2 = 10
+
+def add():
+    # add global variables number1 and number2
+    sum = number1 + number2
+    print(sum)
+add()
+
+def funny():
+    # local variable
+    number3 = 20
+    
+    def gun():
+        # Modify number3 in the enclosing scope (fun)
+        nonlocal number3
+        number3 += 30
+        print(number3)
+    gun()
+funny()
+
+""" 
+Async Programming:
+async, await
+"""
+
+import asyncio
+
+# Define an asynchronous main function
+async def main():
+    await asyncFun()
+    
+
+# Define aother async function that prints a message
+async def asyncFun():
+    print("Hello, Async function of Python!")
+
+# Run the main function using asyncio.run
+asyncio.run(main())
