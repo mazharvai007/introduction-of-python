@@ -155,13 +155,13 @@ print(5-2+3) # 6
 print(5-(2+3)) # 0
 print(2**3**2) # 512
 
-sum = num1 + num2
+sum1 = num1 + num2
 difference = num1 - num2
 product = num1 * num2
 quotient = num1 / num2
 remainder = num1 % num2
 
-print("Sum:", sum)
+print("Sum:", sum1)
 print("Difference:", difference)
 print("Product:", product)
 print("Quotient:", quotient)
@@ -173,3 +173,10 @@ elif num1 < num2:
     print("The second number is greater")
 else:
     print("The numbers are equal")
+    
+comparison_1 = num1 == num2
+print(comparison_1)
+
+num1 = num2
+comparison_1 = num1 == num2
+print(comparison_1)

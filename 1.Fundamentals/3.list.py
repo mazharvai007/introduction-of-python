@@ -73,7 +73,7 @@ print(len(letters))
 print("------")
 
 # It is possible to nest lists (create lists containing other lists), for example:
-list1 = ["a", "b", "c"]
+list1 = ["a", "b", "c", "d", "c", "e", "d"]
 list2 = [1, 2, 3]
 nested_list = [list1, list2]
 print(nested_list)
@@ -85,3 +85,21 @@ print(nested_list[1])
 print(nested_list[1][0])
 print(nested_list[1][1])
 print(nested_list[1][2])
+
+# remove duplicate
+convert_set = set(list1)
+# print(convert_set)
+convert_list = list(convert_set)
+print(convert_list)
+
+
+# Set
+set_1 = {10,20,30,40,50}
+print(set_1)
+
+list3 = nested_list
+list3.append(4)
+print(list3)
+
+print(id(nested_list))
+print(id(list3))

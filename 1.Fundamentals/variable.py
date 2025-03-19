@@ -1,4 +1,6 @@
 # Declaring variables
+from typing import Final
+
 a = "Python"
 
 # We should write clean code to understand for anyone like this
@@ -32,3 +34,13 @@ num3 = 10
 print(id(num1)) # 94854763578064
 print(id(num2)) # 94854763578384
 print(id(num3)) # 94854763578064
+
+variable1: Final = 10
+print(variable1)
+
+variable2 = 12
+print("Address of variable:", id(variable2))
+print(variable2)
+
+variable2 = "Test"
+print(variable2)
