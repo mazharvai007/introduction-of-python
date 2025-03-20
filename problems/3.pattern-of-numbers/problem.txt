@@ -1,0 +1,14 @@
+Problem:
+Write a Python program that generates a pattern of numbers based on the following conditions:
+1. The program should ask the user for an integer input n (where n >= 1). 2. The program should print a pyramid of numbers up to n rows.
+    ○ Each row should print numbers starting from 1 up to the row number (e.g., row 1 prints 1, row 2 prints 1 2, row 3 prints 1 2 3, etc.).
+3. If the number is divisible by 3, replace it with the word "Fizz".
+4. If the number is divisible by 5, replace it with the word "Buzz".
+5. If the number is divisible by both 3 and 5, replace it with "FizzBuzz". 6. The final output should print the pyramid with "Fizz", "Buzz", or "FizzBuzz" based on the divisibility rules.
+Example Output:
+For n = 5, the output should be:
+1
+1 2
+1 2 Fizz
+1 2 Fizz 4 Buzz
+1 2 Fizz 4 Buzz

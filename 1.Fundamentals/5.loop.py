@@ -110,3 +110,43 @@ print(list3)
 text_list = ["Kamal", "had", "a", "little", "lamb"]
 for i in range(len(text_list)):
     print(i, text_list[i])
+
+for i in enumerate(text_list):
+    print(i)
+
+increment = 1
+while increment <= 10:
+    print(increment)
+    increment += 1
+
+# my_string = "Learning Python"
+my_string = "abcd"
+for s in enumerate(my_string):
+    print(s)
+
+x = 0
+while len(my_string) != x:
+    print(my_string[x])
+    # my_string = my_string[1:]
+    # print(my_string)
+
+    x += 1
+
+# print(len(my_string))
+
+# Step 1: x = 0, len(my_string) = 4, 0 != 4, print(mystring[0]) = a, x = 1
+# Step 2: x = 1, len(my_string) = 4, 1 != 4, print(mystring[1]) = b, x = 2
+# Step 3: x = 2, len(my_string) = 4, 2 != 4, print(mystring[2]) = c, x = 3
+# Step 4: x = 3, len(my_string) = 4, 3 != 4, print(mystring[3]) = d, x = 4
+# Step 5: x = 4, len(my_string) = 4, 4 != 4 // while the condition is false, then the iteration is closed.
+
+# Break
+for i in range(1, 11, 2):
+    if i == 5:
+        break
+    print(i)
+
+for i in range(1, 11, 1):
+    if i == 4 or i == 9:
+        continue
+    print(i)
