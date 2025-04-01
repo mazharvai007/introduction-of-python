@@ -44,3 +44,26 @@ print(variable2)
 
 variable2 = "Test"
 print(variable2)
+
+"""
+Variable types:
+
+1. Camel Case
+2. Pascal Case
+3. Snake Case
+"""
+
+# Camel Case
+myCountryName = "Bangladesh"
+muslimNationalFather = "Hazrat Ibrahim (AS)"
+myBankAccount = 1234656789
+
+# Pascal Case
+MyCountryName = "Bangladesh"
+MuslimNationalFather = "Hazrat Ibrahim (AS)"
+MyBankAccount = 1234656789
+
+# Snake Case
+my_country_name = "Bangladesh"
+muslim_national_father = "Hazrat Ibrahim (AS)"
+my_bank_account = 1234656789

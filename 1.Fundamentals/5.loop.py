@@ -150,3 +150,39 @@ for i in range(1, 11, 1):
     if i == 4 or i == 9:
         continue
     print(i)
+
+print("-------------")
+
+# Nested Loop
+for i in range(10):
+    print("For i:", i)
+    for j in range(2):
+        print("For j:", j)
+
+# Iteration of the loop
+# Step 1: i: 0, j: 0, 1
+# Step 2: i: 1, j: 0, 1
+# Step 3: i: 2, j: 0, 1
+# Step 4: i: 3, j: 0, 1
+# Step 5: i: 4, j: 0, 1
+# Step 6: i: 5, j: 0, 1
+# Step 7: i: 6, j: 0, 1
+# Step 8: i: 7, j: 0, 1
+# Step 9: i: 8, j: 0, 1
+# Step 10: i: 9, j: 0, 1
+
+print("-------------")
+
+# 1
+# 22
+# 333
+# 4444
+# 55555
+
+row = 5
+for i in range(1, row + 1):
+    for j in range(1, i + 1):
+        print(i, end="")
+    print(end="\n")
+
+# Iteration of the loop
