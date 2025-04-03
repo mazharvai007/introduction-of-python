@@ -1,0 +1,7 @@
+(-40 - 0) - too cold
+(0-25) - cold
+(25-32) - Normal
+(32-40) - Warm
+(40-60) - Too Warm
+
+Invalid

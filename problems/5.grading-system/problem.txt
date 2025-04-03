@@ -1,0 +1,9 @@
+User can input his marks
+A+ = 81 - 100
+A = 61 - 80
+B = 51 - 60
+C = 41 - 50
+D = 33 - 40
+F = 0 - 32
+
+Invalid number

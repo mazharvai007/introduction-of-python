@@ -21,16 +21,16 @@ else:
 
 
 # The most well-known conditional statement is if
-# num_value = int(input("Please enter an integer: "))
-# if num_value < 0:
-#     num_value = 0
-#     print("Negative changed to zero")
-# elif num_value == 0:
-#     print("Zero")
-# elif num_value == 1:
-#     print("Single")
-# else:
-#     print("More")
+num_value = int(input("Please enter an integer: "))
+if num_value < 0:
+    num_value = 0
+    print("Negative changed to zero")
+elif num_value == 0:
+    print("Zero")
+elif num_value == 1:
+    print("Single")
+else:
+    print("More")
 
 # Ternary condition
 # value_if_true if condition else value_if_false
@@ -64,14 +64,14 @@ print("----------------")
 
 # Even - Odd number checking
 
-# get_number = int(input("Please enter a number: "))
+get_number = int(input("Please enter a number: "))
 
-# if get_number % 2 == 0:
-#     print(f"{get_number} is an even number")
-# else:
-#     print(f"{get_number} is an odd number")
+if get_number % 2 == 0:
+    print(f"{get_number} is an even number")
+else:
+    print(f"{get_number} is an odd number")
 
-# print("----------------")
+print("----------------")
 
 """
 Find the greatest number
@@ -81,17 +81,17 @@ Input two numbers from users
 check condition with one is big
 """
 
-# number1 = int(input("Enter first number: "))
-# number2 = int(input("Enter second number: "))
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
 
-# if number1 == number2:
-#     print(f"{number1} and {number2} are equal")
-# elif number1 >= number2:
-#     print(f"{number1} is greater than {number2}")
-# else:
-#     print(f"{number2} is greater than {number1}")
+if number1 == number2:
+    print(f"{number1} and {number2} are equal")
+elif number1 >= number2:
+    print(f"{number1} is greater than {number2}")
+else:
+    print(f"{number2} is greater than {number1}")
 
-# print("----------------")
+print("----------------")
 
 # Vowel or Consonent
 character = input("Enter a character: ")
@@ -109,7 +109,7 @@ elif character == "o" or character == "O":
 elif character == "u" or character == "U":
     print(f"{character} is vowel")
 else:
-    print(f"{character} is consonent")
+    print(f"{character} is consonant")
 
 # Approach 2
 
@@ -127,4 +127,12 @@ if (
 ):
     print(f"{character} is vowel")
 else:
-    print(f"{character} is consonent")
+    print(f"{character} is consonant")
+
+# Approach 3
+vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+
+if character in vowels:
+    print(f"{character} is vowel")
+else:
+    print(f"{character} is consonant")
