@@ -31,9 +31,9 @@ num1 = 10
 num2 = 20
 num3 = 10
 
-print(id(num1)) # 94854763578064
-print(id(num2)) # 94854763578384
-print(id(num3)) # 94854763578064
+print(id(num1))  # 94854763578064
+print(id(num2))  # 94854763578384
+print(id(num3))  # 94854763578064
 
 variable1: Final = 10
 print(variable1)
@@ -67,3 +67,7 @@ MyBankAccount = 1234656789
 my_country_name = "Bangladesh"
 muslim_national_father = "Hazrat Ibrahim (AS)"
 my_bank_account = 1234656789
+
+
+username = 10
+print(type(username))

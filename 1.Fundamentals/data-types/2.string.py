@@ -1,4 +1,9 @@
-str1 = 'Hello'
+"""
+String - collection of characters
+String is a sequence of characters enclosed in single quotes, double quotes, or triple quotes.
+"""
+
+str1 = "Hello"
 str2 = "Hello"
 str3 = """Hello
 World"""
@@ -32,10 +37,10 @@ print(str1.upper())
 print(str3.title())
 print(str3.capitalize())
 
-print(str3.find("world")) # -1
-print(str3.find("World")) # 6
+print(str3.find("world"))  # -1
+print(str3.find("World"))  # 6
 print(str3.find("World", 7))
-print(str3.replace("World","Python"))
+print(str3.replace("World", "Python"))
 
 str4 = str3.split("\n")
 print(str4)
@@ -57,3 +62,15 @@ print(str10[2])
 print(str10[3])
 
 print("-".join(str7))
+
+print("-----------")
+
+my_country = "Bangladesh"
+print("I live in" + " " + my_country + ".")
+
+# String formatting
+print(f"I live in {my_country}.")
+print("I live in {}".format(my_country))
+print("I live in %s" % my_country)
+print("I live in {0}".format(my_country))
+print("I live in {country}".format(country=my_country))
