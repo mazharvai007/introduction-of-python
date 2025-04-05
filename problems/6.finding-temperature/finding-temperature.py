@@ -1,5 +1,6 @@
 get_temperature = int(input("Enter temperature (-40 - 60): "))
 
+# check temperature that inputs from users
 if get_temperature >= -40 and get_temperature <= 0:
     print("It's too cold.")
 elif get_temperature >= 1 and get_temperature <= 25:

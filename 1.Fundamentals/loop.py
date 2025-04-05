@@ -7,7 +7,7 @@ A range of input
 - While Loop
 start =
 end =
-condition =
+condition = when true the loop is running till it false
 step
 
 break - When a condition meets the requirement, then the break will work.
@@ -56,8 +56,8 @@ start, end, condition, step - the four steps are essential for any kind of loops
 #         continue
 #     else:
 #         print(value)
-        
-# Pass        
+
+# Pass
 
 # For Statements
 
@@ -65,7 +65,7 @@ start, end, condition, step - the four steps are essential for any kind of loops
 words = ["Cat", "Dog", "Window", "King", "Mazhar"]
 for word in words:
     print(word, len(word))
-    
+
 # Create a sample collection
 users = {"Halim": "active", "Hana": "inactive", "Omer": "active"}
 
@@ -77,15 +77,15 @@ for user, status in users.copy().items():
         del users[user]
 
 # print(inactive_users)
-# print(users) 
-    
+# print(users)
+
 # Strategy: Crate a new collection
 active_users = {}
 for user, status in users.items():
     if status == "active":
-        active_users[user] =  status
-        
-# print(active_users) 
+        active_users[user] = status
+
+# print(active_users)
 
 """
 range() function
@@ -102,7 +102,7 @@ print(list1)
 
 list2 = list(range(0, 10, 3))
 print(list2)
-  
+
 list3 = list(range(-10, -100, -30))
 print(list3)
 
@@ -185,4 +185,143 @@ for i in range(1, row + 1):
         print(i, end="")
     print(end="\n")
 
-# Iteration of the loop
+print("-------------")
+
+# Iteration of the for-loop
+country = "I love Bangladesh"
+
+count_vowel = 0
+count_consonant = 0
+
+vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+
+for character in country:
+    if character in vowels:
+        count_vowel += 1
+    else:
+        count_consonant += 1
+
+print("Total vowels:", count_vowel, "and Total consonants:", count_consonant)
+
+# While loop
+start = 1
+
+condition = start <= 5
+
+while condition:
+    print(start)
+
+    start += 1  # update start value
+    condition = start <= 5  # update condition value
+
+# Find name from list
+# names = [
+#     "Karim",
+#     "Rahim",
+#     "Jabbar",
+#     "Hasib",
+#     "Mubassir",
+#     "Aslam",
+#     "Sakib",
+#     "Musfiq",
+#     "Umar",
+#     "Abdullah",
+# ]
+
+# user_input = input("Enter your friend name: ")
+
+# found = False
+
+# for name in names:
+#     if name == user_input:
+#         print(name)
+#         found = True
+#     else:
+#         print("Not found!")
+
+# Find Even number
+# start = int(input("Enter start number: "))
+# end = int(input("Enter end number: "))
+# step = 1
+# count = 0
+
+# if start > end:
+#     print("Start number should be smaller than end number.")
+# else:
+#     for num in range(start, end + 1, step):
+#         if num % 2 == 0:
+#             count += 1
+#             print(f"The number: {num} is even, and count {count}")
+#         # else:
+#         #     print(f"{num} is odd.")
+#     print(f"Total {count} even numbers")
+
+# print("-----------------")
+
+# for num in range(start, end):
+#     if num % 2 == 1:
+#         continue
+#     else:
+#         print(num)
+
+# print("-----------------")
+
+"""
+If user start wtih odd number, it will next number (eveb)
+If user start with even number, the program will run as it is.
+"""
+
+# if start % 2 == 0:
+#     start = start
+# else:
+#     start += 1
+
+# for num in range(start, end + 1, step + 1):
+#     print(num)
+
+# print("-----------------")
+
+# How to hide a fruit from the list
+# fruits = ["Apple", "Banana", "Mango", "Dragon", "Lichi"]
+
+# for fruit in fruits:
+#     # if fruit != "Dragon":
+#     #     print(fruit)
+
+#     if fruit == "Dragon":
+#         continue
+#     print(fruit)
+
+print("-----------------")
+
+# for i in range(1, 5):
+#     for j in range(10, 15):
+#         print(f"i = {i}, and j = {j}")
+#
+#
+# print("-----------------")
+#
+# number1 = 2
+# number2 = 3
+#
+# for j in range(number1, number2 + 1):
+#     print()
+#     print(j)
+#
+#     for i in range(1, 11):
+#         print(f"{j} x {i} = {j * i}")
+#
+# print("-----------------")
+#
+# for i in range(1, 5 + 1, 1):
+#     for j in range(i):
+#         print("*", end="")
+#     print("\n", end="")
+
+# Two-dimensional list
+two_diamensional_list = [
+    [10, 20, 30], [40, 50, 60], [70, 80, 90], [100, 110, 120]
+]
+for main_list in two_diamensional_list:
+    for item in main_list:
+        print(f"Main List {main_list} of item: {item}")
