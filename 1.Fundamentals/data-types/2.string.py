@@ -74,3 +74,7 @@ print("I live in {}".format(my_country))
 print("I live in %s" % my_country)
 print("I live in {0}".format(my_country))
 print("I live in {country}".format(country=my_country))
+
+# Explore string
+str1 = "                       Hello World                 "
+print(str1.strip())

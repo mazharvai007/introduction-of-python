@@ -137,7 +137,7 @@ print("Quard", my_quard)
 print("-----------------------")
 
 
-# A function returning a function
+# A function returning a function - Closure
 def outer_func():
     print("Outer Function")
 
