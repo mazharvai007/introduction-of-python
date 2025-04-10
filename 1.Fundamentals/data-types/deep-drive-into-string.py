@@ -105,6 +105,8 @@ print(capital_case.capitalize())
 # print(email.upper() == user_input.upper())
 # print(email.capitalize() == user_input.capitalize())
 
+print("==============================")
+
 # Strip
 print("    Hello    ".strip())
 print("    Hello    Python    ".strip())
@@ -112,6 +114,8 @@ print("    Hello    Python    ".strip())
 str_strip = "------------Hello-----------"
 result = str_strip.strip("-")
 print(result)
+
+print("==============================")
 
 # String Immutability
 sentence = "English is a good language. I do not know English."
@@ -122,16 +126,22 @@ print(result)
 result = str_slice[0] + "P" + str_slice[2:]
 print(result)
 
+print("==============================")
+
 # String Formatting
 username = "Nahid"
 greet = f"Hello, Welcome to {username}"
 print(greet)
+
+print("==============================")
 
 # format() - without placeholder
 str_with_out_placeholder = "Hello {}, how are you? Your age is {}"
 greet = str_with_out_placeholder.format("Nahid", 20)
 
 print(greet)
+
+print("==============================")
 
 # String formatting with placeholder
 """
@@ -179,3 +189,78 @@ def send_email(default="en"):
 
 
 print(send_email("bn"))
+
+print("==============================")
+
+# find()
+find_demo = "This is a string"
+position = find_demo.find("is")
+print(position)
+
+position = find_demo.find("pyton")
+print(position)
+
+print("==============================")
+
+# split()
+split_demo = "this is a string"
+split_demo.split()
+
+split_demo1 = "this-is-a-string"
+split_demo1.split("-")
+
+print("==============================")
+
+# join()
+join_list = ["this", "is", "a", "string"]
+make_string = " ".join(join_list)
+print(make_string)
+make_string = ",".join(join_list)
+print(make_string)
+
+print("==============================")
+
+# startswith()
+country = "Bangladesh"
+starts_with = country.startswith("Bangla")
+print(starts_with)  # True
+starts_with = country.startswith("Python")
+print(starts_with)  # False
+
+print("==============================")
+
+# endswith()
+country = "Bangladesh"
+ends_width = country.endswith("sh")
+print(ends_width)  # True
+ends_width = country.endswith("hs")
+print(ends_width)  # False
+
+user_email = "abc@gmail.com"
+check_mail = user_email.endswith("gmail.com")
+print(check_mail)
+check_mail = user_email.endswith("yahoo.com")
+print(check_mail)
+
+print("==============================")
+
+# isdigit()
+# isalpha()
+# isspace()
+
+str1 = "1232"
+str2 = "123A"
+str3 = "ABCD"
+str4 = "ABCD5"
+str5 = " A1b2c3 "
+str6 = "           "
+
+str1.isdigit()
+str2.isdigit()
+str3.isalpha()
+str4.isalpha()
+str5.isspace()
+str6.isspace()
+str5.isalpha()
+
+# Reference Link: https://colab.research.google.com/drive/1L5XIujXEFFkoOqSO-GEK9CPx7n0NOFM-?usp=sharing
