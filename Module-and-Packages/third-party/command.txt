@@ -1,0 +1,14 @@
+# Make Virtual Environment
+virtualenv [name]
+
+# Activate virtual environment
+source python3_env/bin/activate
+
+# Check third-party libiraries on local and working environment
+pip list
+
+# make requirement file
+pip freeze > requiremnts.txt
+
+# Deactivate virual environment
+deactivate
