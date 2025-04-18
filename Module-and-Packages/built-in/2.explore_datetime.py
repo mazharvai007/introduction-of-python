@@ -24,3 +24,25 @@ print(datetime.now().strftime(format))
 
 format = "%A"
 print(days_after_seven.strftime(format))
+
+# Date object representing data in Python
+my_date = date(2025, 4, 13)
+print(my_date)
+
+# Get the Current Date
+todays_date = date.today()
+print(todays_date)
+
+# Get Today’s Year, Month, and Date
+this_year = todays_date.year
+print(this_year)
+
+this_month = todays_date.month
+print(this_month)
+
+this_day = todays_date.day
+print(this_day)
+
+# Get Date from Timestamp
+date_time = datetime.fromtimestamp(time)
+print(date_time)

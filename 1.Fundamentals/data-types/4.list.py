@@ -159,3 +159,8 @@ print(
 
 print("=========================")
 
+demo_variable = [[1, 2, 3], [4, 5, 6, 0], [7, 8, 9]]
+for row in range(len(demo_variable)):
+    for col in range(len(demo_variable[row])):
+        print(demo_variable[row][col], end="")
+    print(end="\n")

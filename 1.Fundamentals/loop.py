@@ -319,9 +319,7 @@ print("-----------------")
 #     print("\n", end="")
 
 # Two-dimensional list
-two_diamensional_list = [
-    [10, 20, 30], [40, 50, 60], [70, 80, 90], [100, 110, 120]
-]
+two_diamensional_list = [[10, 20, 30], [40, 50, 60], [70, 80, 90], [100, 110, 120]]
 for main_list in two_diamensional_list:
     for item in main_list:
         print(f"Main List {main_list} of item: {item}")
