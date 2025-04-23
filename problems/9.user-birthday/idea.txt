@@ -1,0 +1,8 @@
+""" 
+Home Work:
+
+Take user's birthdate as this format (dd-mm-yyyy), otherwise give error
+- get_current_age() method
+- return current_age
+    string: "20years 20days"
+"""

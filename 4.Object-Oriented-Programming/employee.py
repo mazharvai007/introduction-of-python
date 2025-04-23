@@ -34,12 +34,3 @@ employee1 = Employee(name="Sakib", age=35, salary=30000)
 # print(date.today())
 
 print(employee1.get_year_of_birth())
-
-""" 
-Home Work:
-
-Take user's birthdate as this format (dd-mm-yyyy), otherwise give error
-- get_current_age() method
-- return current_age
-    string: "20years 20days"
-"""
