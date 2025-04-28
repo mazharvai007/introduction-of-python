@@ -1,5 +1,5 @@
 # Make Virtual Environment
-virtualenv [name]
+virtualenv [name] or python3 -m venv [name]
 
 # Activate virtual environment
 source python3_env/bin/activate
