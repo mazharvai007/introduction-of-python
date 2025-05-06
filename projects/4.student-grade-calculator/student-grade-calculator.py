@@ -30,10 +30,15 @@ def commerce_subjects() -> int:
     Enter marks for all Commerce subjects: Finance, Accounting, Business studies & entity
     """
 
-    finance_banking_marks = int(input("Enter marks for Finance & Banking: "))
-    accounting_marks = int(input("Enter marks for Accounting: "))
-    business_studies_entity_marks = int(
-        input("Enter marks for Business Studies & Entity: ")
+    finance_banking_marks = check_marks(
+        int(input("Enter marks for Finance & Banking: ")), "Finance & Banking"
+    )
+    accounting_marks = check_marks(
+        int(input("Enter marks for Accounting: ")), "Accounting"
+    )
+    business_studies_entity_marks = check_marks(
+        int(input("Enter marks for Business Studies & Entity: ")),
+        "Business Studies & Entity",
     )
 
     return finance_banking_marks + accounting_marks + business_studies_entity_marks
@@ -45,9 +50,15 @@ def arts_subjects() -> int:
     Enter marks for all Arts subjects: Geography, Civic & Citizenship, and Economics
     """
 
-    geography_marks = int(input("Enter marks for Geography: "))
-    civic_citizenship_marks = int(input("Enter marks for Civic & Citizenship: "))
-    economics_marks = int(input("Enter marks for Economics: "))
+    geography_marks = check_marks(
+        int(input("Enter marks for Geography: ")), "Geography"
+    )
+    civic_citizenship_marks = check_marks(
+        int(input("Enter marks for Civic & Citizenship: ")), "Civic & Citizenship"
+    )
+    economics_marks = check_marks(
+        int(input("Enter marks for Economics: ")), "Economics"
+    )
 
     return geography_marks + civic_citizenship_marks + economics_marks
 
