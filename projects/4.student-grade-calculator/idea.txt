@@ -1,0 +1,10 @@
+# Student Grade Calculator
+
+## Topics: Loops, conditionals, functions, error handling
+
+##Task:
+    Write a program that takes student names and their marks in multiple subjects.
+
+    ● Use a loop to input data for multiple students.
+    ● Create a function to calculate average marks and assign a grade (A, B, C, F) based on conditions for SSC in all backgrounds.
+    ● Add error handling to ensure marks are numeric and between 0–100.
