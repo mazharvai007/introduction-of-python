@@ -1,0 +1,9 @@
+# Context: eCommerce or Retail POS
+# Concepts Covered: Loops, functions, conditionals, error handling
+
+# Task:
+    Simulate daily sales tracking:
+        ● Input multiple sales (item, quantity, unit price)
+        ● Group by item and calculate total revenue per item
+        ● Generate summary using a function
+        ● Use error handling for invalid input and ensure quantity/price > 0

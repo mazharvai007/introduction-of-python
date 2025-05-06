@@ -1,0 +1,10 @@
+# Context: eCommerce
+## Concepts Covered: Loop, conditionals, functions, error handling
+
+# Task:
+    Simulate a shopping cart:
+        ● Add items (name, quantity, price)
+        ● View cart contents
+        ● Calculate total and apply promotional discounts (e.g., 10% off if total > 1000)
+        ● Use a loop for continuous interaction
+        ● Handle invalid inputs like non-numeric quantities or prices
